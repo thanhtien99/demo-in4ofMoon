@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+/* Start header */
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    border: 1px solid #b7b9bb;
+}
+.navbar-brand{
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    margin-right: 450px;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar a.navbar-brand{
+    float: left;
+}
+.navbar .navbar-menu{
+    float: left;
+    width: 100%;
+}
+.navbar .navbar-menu .navbar-nav{
+    flex-direction: row;
+    display: flex;
+}
+.navbar .navbar-menu .navbar-nav .nav-link{
+    padding: 8px;
+    color: black;
+}
+.navbar-menu .navbar-nav .material-icons{
+    padding: 8px;
+}
+.navbar .navbar-menu .search .form-control{
+    padding-left: 17px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0.25rem;
+    margin-right: 9px;
+    border: 1px solid #b7b9bb;
+}
+.navbar .navbar-menu .search .btn{
+    font-size: 15px;
+    padding-right: 12px;
+    padding-left: 11px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    border-radius: 0.25rem;
+    background-color: transparent;
+}
+.navbar .navbar-menu .search .bth:hover{
+    color: #fff;
+    background-color: palevioletred;
+    border-color: palevioletred;
+}
+.navbar-menu .navbar-nav{
+    float: left;
+
+}
+.navbar-menu .search{
+    display: flex;
+    float: right;
+    height: 38px;
+    padding-right: 13px;
+}
+/* End header */
+
+/* Slide */
+.slideshow img {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+/* End Slide */
+/* Start container */
+.container{
+    max-width: 1140px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .title .title-name{
+    color: rgb(180, 83, 83);
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container .col-lg-4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(180, 83, 83);;
+}
+.col-lg-4{
+    display: table-cell;
+    text-align: center;
+}
+.container .row .col-lg-4 h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-family: initial;
+    font-weight: 400;
+}
+.container .row .col-lg-4 p{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.container .row .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.333333333%;
+}
+.row .col-lg-4 .view-details{
+    background-color: transparent;
+    border-color: brown;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border-style: solid;
+    height: 38px;
+    margin-bottom: 44px;
+}
+.view-details a{
+    color: brown;
+}
+hr{
+    height: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(121, 118, 118);
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+}
+.container .vanban .col-md-7{
+    width: 50%;
+    float: left;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top: 0px;
+}
+.container .vanban .col-md-7 .feature{
+    font-size: 50px;
+    font-weight: 400px;
+    margin-bottom: 8px;
+    margin-top: 95px;
+    color: #7c4b4b;
+    line-height: 1.1;
+}
+.container .vanban .col-md-7 .feature-p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #5a5a5a;
+}
+.container .vanban .doan2{
+    float: right;
+}
+.container .vanban .doan4{
+    float: right;
+}
+.container .vanban .col-md-5 .img-vanban{
+    width: 450px;
+    height: 450px;
+}
+.container .pri-term{
+    float: left;
+}
+.container .back-to{
+    float: right;
+}
+footer a{
+    text-decoration: underline;
+}
+footer p{
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+footer a{
+    color: #0d6efd;
+}
+footer a:hover{
+    color: #0755c9;
+}
+

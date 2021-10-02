@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="test.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="navbar-brand" href="">MOON</a>
+            <div class="navbar-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">BẢO</a>
+                    </li>
+                    <li><i class="material-icons" style="color: rgb(248, 27, 75);">favorite</i></li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">QUỲNH</a>
+                    </li>
+                </ul>
+                <form class="search">
+                    <input class="form-control" type="text" placeholder="Tìm kiếm">
+                    <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="slideshow">
+            <div class="silde-item active">
+                <img id="img" onclick="changeImg()" src="slide-bao.jpg"  alt="">
+            </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <h2 class="title-name">BẢO CỦA CÁC NĂM</h2>
+            </div>
+            <div class="col-lg-4">
+                <img class="imgheading" src="img/bao2019.jpg" alt="">
+                <h2>Bảo của năm 2019</h2>
+                <p>Bảo của 2019 anh là 1 yang hồ đầu đinh, vì cuộc tình cũ kết thúc quá đau buồn đã khiến anh trở nên mạnh mẽ,anh quyết định biến mình thành 1 đầu gấu, xã hội đen, 1 thằng khốn nạn, badboy, fuckboy, trapboy, chuyên đi lừa tình các em gái.</p>
+                <button class="view-details">
+                    <a href="#">Xem chi tiết</a>
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <img class="imgheading" src="img/bao2020.jpg" alt="">
+                <h2>Bảo của năm 2020</h2>
+                <p>Năm 2020 Bảo đã nhận ra anh có trở thành 1 badboy như nào đi chăng nữa anh cũng không thể chiến thắng được những nym của nyc và tệ hơn, nên anh đã quyết định thay đổi bản thân, anh chăm chỉ hơn trong học tập và công việc, tập thể thao, đi làm nhà hàng như bức hình trên đã nói lên tất cả. anh đã trưởng thành.</p>
+                <button class="view-details">
+                    <a href="#">Xem chi tiết</a>
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <img class="imgheading" src="img/bao2021.png" alt="">
+                <h2>Bảo của năm 2021</h2>
+                <p>Sau bao nhiêu cố gắng của năm 2020 năm nay anh đã thay đổi đi rất nhiều và thành công hơn, anh đã trở nên đẹp trai và cũng tạm gọi là giàu(giàu lòng tình cảm) và hơn hết là anh ranh ma hơn xưa, anh ở một level mới, còn lại thì anh đéo thay đổi mẹ gì nhiều.</p>
+                <button class="view-details">
+                    <a href="#">Xem chi tiết</a>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="row vanban">
+            <div class="title">
+                <h2 class="title-name">THÔNG TIN THÊM</h2>
+            </div>
+            <div class="col-md-7 doan1">
+                <h2 class="feature">Bảo và NYC người đã khiến anh thay đổi để trở thành con người hiện tại</h2>
+                <p class="feature-p">Hiện nay 2 người còn có 1 đặt quyền dành riêng cho nhau đó là : 3 triệu/đêm</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-vanban" src="img/bao1.jpg" alt="">
+            </div>
+            <hr>
+            <div class="col-md-7 doan2">
+                <h2 class="feature">Mày thích nhìn không</h2>
+                <p class="feature-p">Bảo bất cần đời</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-vanban" src="img/bao2.jpg" alt="">
+            </div>
+            <hr>
+            <div class="col-md-7 doan3">
+                <h2 class="feature">Bảo rất thích đôi giày mới mua</h2>
+                <p class="feature-p">Bảo đang phê pha khi cầm trên tay đôi giày mình thích</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-vanban" src="img/bao3.jpg" alt="">
+            </div>
+            <hr>
+            <div class="col-md-7 doan4">
+                <h2 class="feature">Bonus Bảo bất lực</h2>
+                <p class="feature-p">Khuôn mặt đã thể hiện rõ sự bất lực của bản thân.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-vanban" src="img/bao4.png" alt="">
+            </div>
+            <hr>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="pri-term">
+            &copy; 2019-2021 Information of Moon, Inc &middot;
+            <a href="#">Privacy</a>
+            &middot;
+            <a href="#">Terms</a>
+        </p>
+        <p class="back-to">
+            <a href="#">Back to you</a>
+        </p>
+    </footer>
+</body>
+</html>
